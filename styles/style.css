@@ -2,7 +2,7 @@
 
 header {
 	padding: 5px;
-	color: #ffadad;
+	color: #7AD9FF;
 	
 }
 header h1 {
@@ -24,7 +24,7 @@ header img {
 
 
 body {
-	background: #FEFFDB;
+	background: #CDE1FF;
 	padding: 20px 50px;
 }
 
@@ -37,7 +37,7 @@ nav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #FFE8E8;
+    background-color: #CDE1FF;
 }
 
 .navigation {
@@ -46,7 +46,7 @@ nav {
 
 .navigation a {
     display: block;
-    color: #FF3333;
+    color: #7AD9FF;
     text-align: left;
     padding: 14px 16px;
     text-decoration: none;
@@ -66,7 +66,7 @@ nav {
 
 section {
 	color: black;
-	background: #FCF3FE;
+	background: #7AD9FF;
 	font-size: 20px;
 	font-family: Times, Times New Roman, serif;
 }
@@ -154,7 +154,7 @@ section h3 {
 
 footer {
 	font-size: 20px;
-	background: #FFEDD8;
+	background: #7AD9FF;
 }
 
 footer {
