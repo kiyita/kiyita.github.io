@@ -15,22 +15,6 @@ body {
         indigo 300px, violet 350px, red 370px);
 }
 
-b {
-	color: #B7EB44
-}
-
-section {
-	color : green;
-	font-family: Comic Sans MS, Comic Sans, cursive
-}
-
-::-moz-selection {
-  background-color: yellow;
-  color: blue;
-}
-
-
-
 
 #navigation {
     top: 50px;
