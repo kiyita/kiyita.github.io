@@ -16,8 +16,33 @@ body {
 }
 
 
-#navigation {
-    top: 50px;
-	left: 50px;
-	font-size: 75px;
+/*nav*/
+
+
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #CDE1FF;
+}
+
+.navigation {
+  float: left;
+}
+
+.navigation a {
+  display: block;
+  color: black;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  background-color: #FFF9F9;
+}
+
+.active {
+  background-color: #FFF9F9;
 }
