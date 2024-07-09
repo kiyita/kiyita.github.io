@@ -46,3 +46,15 @@ nav {
 .active {
   background-color: #FFF9F9;
 }
+
+img {
+  width: 400px;
+	height: auto;
+  padding: 14px 16px;
+}
+
+.horizontal {
+  width: auto;
+	height: 400px;
+  padding: 14px 16px;
+}
