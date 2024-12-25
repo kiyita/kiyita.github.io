@@ -91,10 +91,33 @@ section {
 
 
 img {
-	width: 50px;
-	height: auto;
+	height: 200px;
+	width: auto;
   }
-  
+
+
+.pour_aligner {
+	display: flex;
+	align-items: center;
+}
+.pour_aligner img {
+	height: 50px;
+	width: auto;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+#projet_image {
+	height: 200px;
+	width: auto;
+}
+
+
+#GameLife {
+    text-align: right; /* Aligne le contenu texte à droite */
+    display: flex;     /* Active le mode flex pour aligner des éléments spécifiques */
+    justify-content: flex-end; /* Déplace tout le contenu vers la droite */
+}
 
 /*footer*/
 
