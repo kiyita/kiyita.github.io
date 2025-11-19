@@ -1,54 +1,158 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
+<!DOCTYPE html>
 <html lang="fr">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<link rel="icon" href="images/logo.png" />
-	<title>
-		Lucie Bihet Portfolio
-	</title>
-	<link rel="stylesheet" type="text/css" href="styles/stylecopy.css" media="all" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucie Bihet Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
 
-	<div class="navbar">
-		<a href="index.html">Accueil</a>
-		<a href="cv.html">CV</a>
-		<a href="loisirs.html">Loisirs</a>
-		<a href="funfacts.html">Fun Facts</a>
-	</div> 
+<header>
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#comptetences">Competences</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Engineering student at ENSSAT</p>
+            <h1>I'm <span>Lucie Bihet</span><br>studying in France</h1>
+        </div>
+    </div>
+</header>
 
-	<header>
+<!-------------about------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/about_me.JPG">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Second-Year Engineering student specializing in Computer Science at ENSSAT in France, looking for a academic semester abroad.<br>A reliable and curious computer science student with strong communication skills who is positive and independent.</p>
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programmation</span><br>Coding skills in C/C++, Java, Python, OCaml, SQL</li>
+                        <li><span>Web development</span><br>Web development in Javascript, HTML, CSS, PHP</li>
+                        <li><span>Network</span><br>Knowledge of network protocols and security</li>
+                        </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2022 - Present</span><br>Development of several projects, available on my GitHub</li>
+                        <li><span>June/July 2025</span><br>Project leader - Orange Lannion : Creation of automation scripts for data processing in Python and implementation of tutorials for their use</li>
+                        <li><span>2023 - 2024</span><br>Working in pairs to study the thermodynamics of an Olympic swimming pool, then presenting solutions and results to a panel</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2024 - Present</span><br>ENSSAT Graduate school of Engineering part of RENNES University, FR</li>
+                        <li><span>2022 - 2024</span><br>Preparatory Cycle, Centre International de Valbonne, VALBONNE, FRANCE</li>
+                        <li><span>2022</span><br>BACCALAUREAT: French High school diploma specializing in mathematics and computer science, with great honors</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-		<h1>
-			Lucie Bihet
-		</h1>
-		<h2>
-			Etudiante ingénieure en informatique
-		</h2>
-		<h3>
-			Intéressée par la cybersécurité et l'UX/UI Design
-		</h3>
+<!------------comptetences-------------->
+<div id="comptetences">
+    <div class="container">
+        <h1 class="sub-title">My Competences</h1>
+        <div class="comptetences-list">
+            <div>
+                <img src="images/graphic-design.png">
+                <h2>Web Design and Development</h2>
+                <p>Creating visually appealing and user-friendly website designs using modern web technologies.</p>
+                <!--<a href="#">learn more</a>-->
+            </div>
+            <div>
+                <img src="images/software.png">
+                <h2>Automation script</h2>
+                <p>Developing scripts to automate repetitive tasks and improve efficiency using various programming languages.</p>
+                <!--<a href="#">learn more</a>-->
+            </div>
+            <div>
+                <img src="images/programming.png">
+                <h2>Programming</h2>
+                <p>Writing efficient and maintainable code in various programming languages to develop software solutions.</p>
+                <!--<a href="#">learn more</a>-->
+            </div>
+        </div>
+    </div>
+</div>
 
-	</header>
+<!-------------portfolio------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/travel.png">
+                <div class="layer">
+                    <h3>Travel Reservation software</h3>
+                    <p>A service for booking and managing travel circuits. <br>
+                        <b>Languages used :</b> Java, SQL
+                    </p>
+                    <!--<a href="#"><img src="images/link.png"></a>-->
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/weather.png">
+                <div class="layer">
+                    <h3>Weather Map website</h3>
+                    <p>A website that displays weather information on a map, temperature, and forecasts. <br>
+                        <b>Languages used :</b> HTML, CSS, JavaScript
+                    </p>
+                    <!--<a href="#"><img src="images/link.png"></a>-->
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/mineswipper.png">
+                <div class="layer">
+                    <h3>Mineswipper & its AI</h3>
+                    <p>A classic Minesweeper game playable in a terminal enhanced with an AI to assist in gameplay. <br>
+                        <b>Languages used :</b> C
+                    </p>
+                    <!--<a href="#"><img src="images/link.png"></a>-->
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/kiyita?tab=repositories" class="btn" target="_blank" rel="noopener noreferrer">See more</a>
+    </div>
+</div>
 
-	<div class="vide"></div>
+<script>
 
-	<section id="about_me">
-		<h2>À propos de moi</h2>
-		<img src="images/pipotam.jpg" alt="Pipotam" id="me_picture"/>
-		<div id="about_me_text">
-			Etudiante ingénieure en informatique, je me forme dans plusieurs domaines au sein de l'ENSSAT (Ecole Nationale Supérieure des Sciences Appliquées et de Technologie) tels que la cybersécurité, le génie logiciel, l'IA, les BDD.<br>
-			Je me forme plus particulièrement en cybersécurité et en UX/UI design, domaines qui me passionnent.
-		</div>
-	</section>
-
-	<footer>
-		Site web réalisé par
-	</footer>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
 
 </body>
 </html>
-
