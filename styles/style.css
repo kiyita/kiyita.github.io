@@ -211,6 +211,12 @@ nav ul li a:hover::after{
     margin-top: 50px;
 }
 
+.work-list > a.work,
+.work-list > a.work:visited{
+    color: #fff;
+    text-decoration: none;
+}
+
 .work{
     border-radius: 10px;
     position: relative;
